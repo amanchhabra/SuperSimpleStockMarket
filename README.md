@@ -25,7 +25,7 @@ A Stock Market module that provides various stock and trade operations. The oper
      5. GOE
 
 
-[More Information...](https://github.com/amanchhabra/SuperSimpleStockMarket/docs/index.html)
+[More Information...](https://amanchhabra.github.io/SuperSimpleStockMarket/)
 
 ## Installing and Runing the server
 
