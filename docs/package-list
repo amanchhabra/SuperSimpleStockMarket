@@ -1,0 +1,6 @@
+com.jpmorgan.digital.domain
+com.jpmorgan.digital.dto
+com.jpmorgan.digital.helper
+com.jpmorgan.digital.model
+com.jpmorgan.digital.service
+com.jpmorgan.digital.service.impl

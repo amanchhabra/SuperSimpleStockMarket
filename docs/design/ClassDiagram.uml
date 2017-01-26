@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.jpmorgan.digital.model.StockModel</OriginalElement>
+  <nodes>
+    <node x="686.0" y="515.0">com.jpmorgan.digital.model.StockModel</node>
+    <node x="521.85" y="1097.0">com.jpmorgan.digital.domain.TradeDomain</node>
+    <node x="397.0" y="538.0">com.jpmorgan.digital.helper.StockHelper</node>
+    <node x="887.975" y="213.0">com.jpmorgan.digital.dto.StockDTO</node>
+    <node x="510.975" y="235.0">com.jpmorgan.digital.helper.ConfigLoader</node>
+    <node x="557.35" y="818.0">com.jpmorgan.digital.service.impl.StockServiceImpl</node>
+    <node x="987.7249999999999" y="0.0">com.jpmorgan.digital.dto.TradeDTO</node>
+    <node x="0.0" y="571.5">com.jpmorgan.digital.service.StockService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.jpmorgan.digital.service.impl.StockServiceImpl" target="com.jpmorgan.digital.model.StockModel">
+      <point x="36.125" y="-114.5" />
+      <point x="737.975" y="788.0" />
+      <point x="875.5" y="788.0" />
+      <point x="0.0" y="126.5" />
+    </edge>
+    <edge source="com.jpmorgan.digital.dto.StockDTO" target="com.jpmorgan.digital.dto.TradeDTO">
+      <point x="-81.0" y="-126.0" />
+      <point x="968.975" y="188.0" />
+      <point x="1023.7249999999999" y="188.0" />
+      <point x="-72.0" y="81.5" />
+    </edge>
+    <edge source="com.jpmorgan.digital.service.impl.StockServiceImpl" target="com.jpmorgan.digital.helper.StockHelper">
+      <point x="-36.125" y="-114.5" />
+      <point x="665.725" y="788.0" />
+      <point x="531.5" y="788.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="com.jpmorgan.digital.model.StockModel" target="com.jpmorgan.digital.dto.StockDTO">
+      <point x="142.125" y="-126.5" />
+      <point x="1017.625" y="490.0" />
+      <point x="1130.975" y="490.0" />
+      <point x="81.0" y="126.0" />
+    </edge>
+    <edge source="com.jpmorgan.digital.model.StockModel" target="com.jpmorgan.digital.helper.ConfigLoader">
+      <point x="-142.125" y="-126.5" />
+      <point x="733.375" y="490.0" />
+      <point x="600.225" y="490.0" />
+      <point x="-89.25" y="104.0" />
+    </edge>
+    <edge source="com.jpmorgan.digital.service.impl.StockServiceImpl" target="com.jpmorgan.digital.dto.TradeDTO">
+      <point x="108.375" y="-114.5" />
+      <point x="810.225" y="798.0" />
+      <point x="1222.475" y="798.0" />
+      <point x="1222.475" y="188.0" />
+      <point x="1167.7250000000001" y="188.0" />
+      <point x="72.00000000000011" y="81.5" />
+    </edge>
+    <edge source="com.jpmorgan.digital.domain.TradeDomain" target="com.jpmorgan.digital.service.impl.StockServiceImpl">
+      <point x="0.0" y="-115.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="com.jpmorgan.digital.service.impl.StockServiceImpl" target="com.jpmorgan.digital.service.StockService">
+      <point x="-108.375" y="-114.5" />
+      <point x="593.475" y="798.0" />
+      <point x="188.5" y="798.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4305864884929473" x="624.5" y="663.5" />
+  <SelectedNodes>
+    <node>com.jpmorgan.digital.dto.TradeDTO</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
